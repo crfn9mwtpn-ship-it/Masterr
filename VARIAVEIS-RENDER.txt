@@ -1,0 +1,26 @@
+==============================================
+ VARIAVEIS DO RENDER - copie e cole no painel
+==============================================
+
+SUPABASE_URL
+https://y5bsz07hp6db54mu7oic.helloreaddy.com/
+
+SUPABASE_SERVICE_ROLE_KEY
+(pegue em Backend -> Configuracoes/API. NUNCA use no frontend)
+
+WEBHOOK_URL
+https://y5bsz07hp6db54mu7oic.helloreaddy.com/functions/v1/wa-webhook
+
+BOT_TOKEN
+(o mesmo valor salvo no segredo BOT_TOKEN do Backend)
+
+SESSION_DIR
+/data/session
+
+PORT
+3000
+
+----------------------------------------------
+Lembre de criar um DISCO de 1 GB montado em /data.
+Sem disco a sessao se perde e o QR volta a cada reinicio.
+----------------------------------------------
